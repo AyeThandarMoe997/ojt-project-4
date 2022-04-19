@@ -15,7 +15,7 @@ const routes = [
     },
     {
         name: 'secondojt',
-        path: '/secondojt/:movies',
+        path: '/secondojt',
         component: SecondOjtContent,
         props: true,
     },
@@ -25,7 +25,7 @@ const routes = [
         component: ThirdOjtContent
     },
     {
-        path: '/booklist/:novels',
+        path: '/booklist',
         name: 'booklist',
         props: true,
         component: BookList

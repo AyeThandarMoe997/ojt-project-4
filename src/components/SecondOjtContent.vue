@@ -3,7 +3,7 @@
     <p>{{ $store.state.stateHeader }}</p>
     <p> {{  }} </p>
     <div class="movie-list">
-      <ul>
+      <ul style="width: 500px;">
         <li v-for="(movie, index) in movies" :key="index" :movie="movie"> {{ movie.movie_name }} </li>
       </ul>
     </div>
@@ -34,7 +34,7 @@ export default {
     padding: 150px 0px;
 }
 .movie-list {
-  width: 300px;
+  width: 500px;
   text-align: left;
   padding-left: 550px;
 }
